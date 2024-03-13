@@ -1,0 +1,35 @@
+@import url("reset.css");
+
+h2 {
+	color: green;
+}
+
+.navigation {
+	color: red;
+}
+
+.navigation p {
+	color: rgb(26, 149, 237);
+}
+
+.menu {}
+
+.part-1 {
+	color: blue;
+}
+
+.part-2 {
+	color: burlywood;
+}
+
+.part-3 {
+	color: aquamarine;
+}
+
+.part-4 {
+	color: brown;
+}
+
+.part-4 p {
+	color: chartreuse;
+}
