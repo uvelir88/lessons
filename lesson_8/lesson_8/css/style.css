@@ -1,0 +1,39 @@
+/* Скидання стилів */
+@import url(reset.css);
+
+.page__container {
+    max-width: 950px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    border: 5px solid rgb(227, 122, 122);
+    background-color: #d48aec;
+    margin-bottom: 100px;
+}
+
+.text span {
+    font-size: 25px;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+
+.img__icon {
+    min-width: 40px;
+    vertical-align: middle;
+}
+
+.img__photo {
+    max-width: 500px;
+    vertical-align: middle;
+
+}
+
+.image__room {
+    max-width: 100%;
+    border-radius: 8px;
+}
