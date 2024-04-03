@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+/* Локальне підключення */
+@import url(fonts.css);
+
+/* Скидання стилів */
+@import url(reset.css);
+
+
+/* ---------------krovato----------------------- */
+
+.krovato__conteiner {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.krovato__choose-bed {
+    font-family: "Proxima Nova Rg", sans-serif;
+    padding: 55px 0px 40px 0px;
+    color: #2b2929;
+}
+
+.krovato__choose-bed_title {
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.krovato__choose-bed_image {
+    margin-bottom: 40px;
+}
+
+.krovato__choose-bed_image img {
+    border-radius: 8px;
+}
+
+.krovato__choose-bed_text {
+    margin-bottom: 40px;
+
+}
+
+.krovato__choose-bed_text>p {
+    line-height: 1.875;
+    font-size: 16px;
+}
+
+.krovato__choose-bed_text--fat {
+    font-weight: 600;
+}
+
+.krovato__choose-bed_text p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.krovato__choose-bed_subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.krovato__choose-bed_list {
+    margin-bottom: 40px;
+}
+
+.krovato__choose-bed_list>li {
+    background: url(../img/Vector.png) no-repeat;
+    padding-left: 50px;
+    line-height: 1.875;
+    font-size: 16px;
+}
+
+
+.krovato__choose-bed_list li:not(:last-child) {
+    margin-bottom: 20px;
+
+}
+
+
+.krovato__choose-bed_text-other {
+    line-height: 1.875;
+    font-size: 16px;
+}
+
+/* ---------------About----------------------- */
+
+.about {
+    max-width: 1512px;
+    min-height: 555px;
+    background-image: url(../img/About\ section.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+}
+
+.about__conteiner {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.about__items {
+    margin: 0 auto;
+    max-width: 992px;
+    min-height: auto;
+}
+
+.about__title {
+    font-family: "Exo", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.about__title h1 {
+    margin-bottom: 20px;
+}
+
+.about__title::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 20px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+}
+
+.about__text {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    line-height: 2.22;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+
+}
+
+.about__text p {
+    margin-bottom: 60px;
+}
+
+.about__list {
+    text-align: center;
+}
+
+.about__list-item {
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.about__list-item::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 55px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+}
+
+.about__list-link {
+    display: inline-block;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+
+/* ---------------contacts----------------------- */
+
+.my-contacts {
+    margin: 0 auto;
+    max-width: 992px;
+    min-height: auto;
+    color: white;
+    text-align: center;
+}
+
+.my-contacts-item {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+
+.my-contacts-phone {
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+.my-contacts-phone::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background: url(../img/contacts/1.png) no-repeat 0 0;
+}
+
+.my-contacts-location {
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+.my-contacts-location::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background: url(../img/contacts/2.png) no-repeat 0 0;
+}
+
+.my-contacts-mail {
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+.my-contacts-mail::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background: url(../img/contacts/3.png) no-repeat 0 0;
+}
+
+
+/* ---------------game----------------------- */
+
+
+.game {
+    background: url(../img/game/field.jpg) 0 0 / cover no-repeat;
+    padding: 15% 0;
+}
+
+.game__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.game__play {
+    background-color: #13ac05b1;
+    border: 10px #0abd34a0 solid;
+    word-spacing: -5px;
+    height: 1000px;
+    width: 100%;
+    line-height: 0;
+}
+
+.game__block {
+    background: red;
+}
+
+.game__block-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.game__block-2 {
+    width: 600px;
+    height: 50px;
+    visibility: hidden;
+}
+
+.game__block-1:hover+.game__block-2,
+.game__block-2:hover {
+    visibility: visible;
+}
+
+.game__block-3 {
+    width: 50px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 550px;
+    visibility: hidden;
+}
+
+.game__block-2:hover+.game__block-3,
+.game__block-3:hover {
+    visibility: visible;
+}
+
+.game__block-4 {
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.game__block-3:hover+.game__block-4,
+.game__block-4:hover {
+    visibility: visible;
+}
+
+.game__block-5 {
+    width: 50px;
+    height: 300px;
+    margin-left: 950px;
+    visibility: hidden;
+}
+
+.game__block-4:hover+.game__block-5,
+.game__block-5:hover {
+    visibility: visible;
+}
+
+.game__block-6 {
+    width: 800px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 200px;
+    visibility: hidden;
+}
+
+.game__block-5:hover+.game__block-6,
+.game__block-6:hover {
+    visibility: visible;
+}
+
+.game__block-7 {
+    width: 50px;
+    height: 100px;
+    margin-left: 200px;
+    visibility: hidden;
+    background: blue;
+}
+
+.game__block-6:hover+.game__block-7,
+.game__block-7:hover {
+    visibility: visible;
+}
+
+.image__game {
+    visibility: hidden;
+}
+
+.game__block-7:hover+.image__game,
+.image__game:hover {
+    visibility: visible;
+}
